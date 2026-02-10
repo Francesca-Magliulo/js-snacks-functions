@@ -13,9 +13,9 @@ const name = 'Mario';
 function greet(name) {
     let ora = new Date().getHours()
 
-    if (ora <= 13) {
+    if (ora <= 13 && ora >= 3) {
         return "Buongiorno " + name
-    } else if (ora <= 17) {
+    } else if (ora >13 && ora <= 17) {
         return "Buon pomeriggio " + name
     } else {
         return "Buonasera " + name
