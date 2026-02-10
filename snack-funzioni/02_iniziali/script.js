@@ -16,7 +16,7 @@ function firstLetter(names) {
     return result
 } 
 
-// Invoca la funzione qui e stampa il risultato in console
+// Invoca la funzione qui e stampa il risultato in console 
 
 const newArray = firstLetter(names)
 console.log(newArray)
